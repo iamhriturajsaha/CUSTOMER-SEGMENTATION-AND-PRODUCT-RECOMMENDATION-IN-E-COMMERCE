@@ -127,7 +127,7 @@ customer_segments = kmeans.fit_predict(rfm_scaled)
   </tr>
   <tr>
     <td align="center"><img src="Visualizations/3.png" width="500"></td>
-    <td align="center"><img src="Analysis Images/4.png" width="500"></td>
+    <td align="center"><img src="Visualizations/4.png" width="500"></td>
   </tr>
   <tr>
     <td align="center"><img src="Visualizations/5.png" width="500"></td>
