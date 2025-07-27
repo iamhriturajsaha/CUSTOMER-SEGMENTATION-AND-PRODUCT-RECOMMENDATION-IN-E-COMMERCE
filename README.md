@@ -76,7 +76,7 @@ Input -
 
 ## 📊 Dataset Information
 
-**Source** - [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/online+retail)
+**Source** - [Retail.csv](https://drive.google.com/file/d/1rzRwxm_CJxcRzfoo9Ix37A2JTlMummY-/view)
 
 **Period** - December 1, 2010 to December 9, 2011
 
@@ -162,7 +162,7 @@ customer_segments = kmeans.fit_predict(rfm_scaled)
 ### Key Performance Metrics
 
 - **Segmentation Accuracy** - 85%+ silhouette score
-- **Recommendation Precision** - Top-5 recommendations show 78% relevance
+- **Recommendation Precision** - Top 5 recommendations show 78% relevance
 - **Business Impact** - 15% improvement in targeted campaign CTR
 
 ### Visualizations
@@ -194,3 +194,12 @@ customer_segments = kmeans.fit_predict(rfm_scaled)
     <td align="center"><img src="Visualizations/6.png" width="500"></td>
   </tr>
 </table>
+
+## 🚀 Future Enhancements
+
+- **Deep Learning Integration** - Implement neural collaborative filtering
+- **Real-time Processing** - Stream processing for live recommendations
+- **Multi-channel Integration** - Combine online and offline data
+- **Dynamic Pricing** - Price optimization based on segments
+- **API Service** - RESTful API for real-time recommendations
+- **Cloud Deployment** - AWS/GCP/Azure integration
