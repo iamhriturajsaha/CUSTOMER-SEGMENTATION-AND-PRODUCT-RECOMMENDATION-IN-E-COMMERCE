@@ -4,13 +4,61 @@
 
 **Shopper Spectrum** is a comprehensive data science project that leverages machine learning to analyze customer behavior in e-commerce environments. By combining advanced clustering techniques with recommendation algorithms, this system provides actionable insights for businesses to optimize their marketing strategies and enhance customer experience.
 
+## 🌐 Streamlit Web Application
+Interactive web interface for real-time customer behavior analysis -
+
 ### 🎪 Key Features
 
-✨ **Customer Segmentation** - Advanced RFM (Recency, Frequency, Monetary) analysis with K-Means clustering  
-🎯 **Personalized Recommendations** - Item-based collaborative filtering using cosine similarity  
-📊 **Interactive Visualizations** - Comprehensive EDA with business-ready insights  
-🔍 **Data Quality Assurance** - Robust preprocessing and cleaning pipeline  
-📈 **Business Intelligence** - Actionable metrics for marketing and sales teams  
+📦 1. **Product Recommendation System**
+Input - Product name (from dataset)
+
+**Functionality -**
+- Uses cosine similarity on the customer-product quantity matrix.
+- Recommends top 5 similar products based on customer buying patterns.
+- Products are ranked by similarity scores.
+  
+**User Interface -**
+- Intuitive search bar for entering product names.
+- Stylish recommendation cards with product name and similarity score.
+- Handles missing or incorrect product names with proper error messages.
+
+<table>
+  <tr>
+    <td><img src="Streamlit Images/1.png" width="100%"></td>
+    <td><img src="Streamlit Images/2.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="Streamlit Images/3.png" width="100%"></td>
+    <td><img src="Streamlit Images/4.png" width="100%"></td>
+  </tr>
+</table>
+
+🧠 2. **Customer Segmentation Predictor**
+Input -
+- Recency - Days since last purchase
+- Frequency - Number of purchases
+- Monetary - Total amount spent
+
+**Functionality -**
+- Scales the RFM inputs using a pre-trained StandardScaler.
+- Predicts cluster using a pre-trained KMeans model.
+- Applies custom labeling logic to assign one of the customer segments -
+  - High-Value
+  - Regular
+  - Occasional
+  - At-Risk
+
+**User Interface -**
+- User-friendly input sliders for each RFM metric.
+- Segmentation result displayed in a visually styled result box.
+- Also shows the assigned Cluster ID.
+
+<table>
+  <tr>
+    <td><img src="Streamlit Images/5.png" width="100%"></td>
+    <td><img src="Streamlit Images/6.png" width="100%"></td>
+  </tr>
+</table>
 
 ## 🛠️ Tech Stack
 
