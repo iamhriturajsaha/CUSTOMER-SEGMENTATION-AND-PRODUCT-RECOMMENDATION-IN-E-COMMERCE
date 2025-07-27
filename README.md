@@ -34,6 +34,8 @@ Input - Product name (from dataset)
   </tr>
 </table>
 
+---
+
 🧠 2. **Customer Segmentation Predictor**
 
 Input -
