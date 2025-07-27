@@ -10,6 +10,7 @@ Interactive web interface for real-time customer behavior analysis -
 ### 🎪 Key Features
 
 📦 1. **Product Recommendation System**
+
 Input - Product name (from dataset)
 
 **Functionality -**
@@ -34,6 +35,7 @@ Input - Product name (from dataset)
 </table>
 
 🧠 2. **Customer Segmentation Predictor**
+
 Input -
 - Recency - Days since last purchase
 - Frequency - Number of purchases
