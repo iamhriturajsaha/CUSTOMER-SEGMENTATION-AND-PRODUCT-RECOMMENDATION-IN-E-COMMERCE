@@ -25,8 +25,11 @@
 ## 📊 Dataset Information
 
 **Source** - [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/online+retail)
-**Period** - December 1, 2010 - December 9, 2011  
-**Business Context** - UK-based online retail transactions  
+
+**Period** - December 1, 2010 - December 9, 2011
+
+**Business Context** - UK-based online retail transactions
+
 **Size** - 540,000+ transactions across 4,000+ customers
 
 ### Data Schema
