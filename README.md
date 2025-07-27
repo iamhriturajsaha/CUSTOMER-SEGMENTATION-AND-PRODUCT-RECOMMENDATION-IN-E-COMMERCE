@@ -28,8 +28,6 @@
 
 **Period** - December 1, 2010 - December 9, 2011
 
-**Business Context** - UK-based online retail transactions
-
 **Size** - 540,000+ transactions across 4,000+ customers
 
 ### Data Schema
