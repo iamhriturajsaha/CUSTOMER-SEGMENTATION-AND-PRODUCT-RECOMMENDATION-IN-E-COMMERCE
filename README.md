@@ -25,12 +25,12 @@ Input - Product name (from dataset)
 
 <table>
   <tr>
-    <td><img src="Streamlit Images/1.png" width="100%"></td>
-    <td><img src="Streamlit Images/2.png" width="100%"></td>
+    <td><img src="Streamlit Images/1.png" width="500%"></td>
+    <td><img src="Streamlit Images/2.png" width="500%"></td>
   </tr>
   <tr>
-    <td><img src="Streamlit Images/3.png" width="100%"></td>
-    <td><img src="Streamlit Images/4.png" width="100%"></td>
+    <td><img src="Streamlit Images/3.png" width="500%"></td>
+    <td><img src="Streamlit Images/4.png" width="500%"></td>
   </tr>
 </table>
 
@@ -59,8 +59,8 @@ Input -
 
 <table>
   <tr>
-    <td><img src="Streamlit Images/5.png" width="100%"></td>
-    <td><img src="Streamlit Images/6.png" width="100%"></td>
+    <td><img src="Streamlit Images/5.png" width="500%"></td>
+    <td><img src="Streamlit Images/6.png" width="500%"></td>
   </tr>
 </table>
 
@@ -78,7 +78,7 @@ Input -
 
 **Source** - [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/online+retail)
 
-**Period** - December 1, 2010 - December 9, 2011
+**Period** - December 1, 2010 to December 9, 2011
 
 **Size** - 540,000+ transactions across 4,000+ customers
 
