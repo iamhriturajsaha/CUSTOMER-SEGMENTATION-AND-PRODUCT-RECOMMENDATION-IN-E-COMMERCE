@@ -1,4 +1,4 @@
-# 🛒Customer Segmentation and Product Recommendation in E-Commerce
+# 🛒Shopper Spectrum : Customer Segmentation and Product Recommendation in E-Commerce
 
 ## 🎯 Overview
 
