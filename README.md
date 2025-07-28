@@ -23,6 +23,7 @@ Input - Product name (from dataset)
 - Stylish recommendation cards with product name and similarity score.
 - Handles missing or incorrect product names with proper error messages.
 
+**Quick Glance**
 <table>
   <tr>
     <td><img src="Streamlit Images/1.png" width="500%"></td>
@@ -57,6 +58,7 @@ Input -
 - Segmentation result displayed in a visually styled result box.
 - Also shows the assigned Cluster ID.
 
+**Quick Glance**
 <table>
   <tr>
     <td><img src="Streamlit Images/5.png" width="500%"></td>
