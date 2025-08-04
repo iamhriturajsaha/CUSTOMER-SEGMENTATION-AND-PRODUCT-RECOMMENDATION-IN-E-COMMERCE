@@ -23,18 +23,14 @@ Input - Product name (from dataset)
 - Stylish recommendation cards with product name and similarity score.
 - Handles missing or incorrect product names with proper error messages.
 
-**Quick Glance -**
+**Streamlit Quick Glance -**
 
-<table>
-  <tr>
-    <td><img src="Streamlit Images/1.png" width="500%"></td>
-    <td><img src="Streamlit Images/2.png" width="500%"></td>
-  </tr>
-  <tr>
-    <td><img src="Streamlit Images/3.png" width="500%"></td>
-    <td><img src="Streamlit Images/4.png" width="500%"></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="Streamlit Images/1.png" alt="Streamlit Dashboard 1" width="1000"/><br>
+  <img src="Streamlit Images/2.png" alt="Streamlit Dashboard 2" width="1000"/><br>
+  <img src="Streamlit Images/3.png" alt="Streamlit Dashboard 3" width="1000"/><br>
+  <img src="Streamlit Images/4.png" alt="Streamlit Dashboard 4" width="1000"/>
+</p>
 
 ---
 
@@ -59,14 +55,12 @@ Input -
 - Segmentation result displayed in a visually styled result box.
 - Also shows the assigned Cluster ID.
 
-**Quick Glance -**
+**Streamlit Quick Glance -**
 
-<table>
-  <tr>
-    <td><img src="Streamlit Images/5.png" width="500%"></td>
-    <td><img src="Streamlit Images/6.png" width="500%"></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="Streamlit Images/5.png" alt="Streamlit Dashboard 5" width="1000"/><br>
+  <img src="Streamlit Images/6.png" alt="Streamlit Dashboard 6" width="1000"/><br>
+</p>
 
 ## 🛠️ Tech Stack
 
@@ -207,3 +201,4 @@ customer_segments = kmeans.fit_predict(rfm_scaled)
 - **Dynamic Pricing** - Price optimization based on segments
 - **API Service** - RESTful API for real-time recommendations
 - **Cloud Deployment** - AWS/GCP/Azure integration
+
