@@ -201,4 +201,3 @@ customer_segments = kmeans.fit_predict(rfm_scaled)
 - **Dynamic Pricing** - Price optimization based on segments
 - **API Service** - RESTful API for real-time recommendations
 - **Cloud Deployment** - AWS/GCP/Azure integration
-
